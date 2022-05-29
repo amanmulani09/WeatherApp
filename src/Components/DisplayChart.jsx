@@ -43,12 +43,12 @@ const DisplayChart = () => {
               <p className="country-name">{data.location.country}</p>
             </div>
             <div className="state">
-              <p>{data.location.region}</p>
-              <p className="state-name">Maharashtra</p>
+              <p>State</p>
+              <p className="state-name">{data.location.region}</p>
             </div>
             <div className="time-zone">
-              <p>{data.location.tz_id}</p>
-              <p className="time-zone-name">Asia/Kolkata</p>
+              <p>Time Zone</p>
+              <p className="time-zone-name">{data.location.tz_id}</p>
             </div>
           </div>
         </div>
