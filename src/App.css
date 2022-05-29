@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    background-image: url('../Images/cloud.jpg');
+    background-position: fit;
+  
+
+}
+
+.input{
+    border:2px solid grey;
+    width:50%;
+    height: 20vh;
+    margin-left: 23%;
+    margin-top: 7vh;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.output{
+    /* border:2px solid white; */
+    width: 70%;
+    height: 40vh;
+    margin-top: -33px;
+    margin-left: 42px;
+}
+
+.weather h4{
+    font-size: 1.4rem;
+    color:white;
+    margin-bottom: -64px;
+    
+}
+.weather h3{
+    font-size: 5rem;
+    color:white;
+}
+
+.input input{
+    font-size: 2rem;
+    border-radius: 2rem;
+    margin-left: 100px;
+    margin-top: 42px;
+    text-align: center;
+}
+
+.day-status{
+    font-size:2rem;
+    margin-left: 1200px;
+    color:white;
+    writing-mode: vertical-rl;
+}
+
+.location{
+    display: flex;
+    border:2px solid white;
+    align-items: center;
+    height: 25vh;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    background-color: lavender;
+    margin-left: 293px;
+    margin-top: 62px;
+}
+
+.country{
+    background-color: white;
+    width:162px;
+    text-align: center;
+    border-radius: 12px;
+    height: 18vh;
+    border: 2px solid grey;
+}
+
+.state{
+    background-color: white;
+    width:162px;
+    text-align: center;
+    border-radius: 12px;
+    height: 18vh;
+    border: 2px solid grey;
+}
+
+.time-zone{
+    background-color: white;
+    width:162px;
+    text-align: center;
+    border-radius: 12px;
+    height: 18vh;
+    border: 2px solid grey;
+}
+
+
+
+.country-name{
+    font-size: 1.3rem;
+    color:blue;
+}
+.state-name{
+    font-size: 1.3rem;
+    color:blue;
+}
+.time-zone-name{
+    font-size: 1.3rem;
+    color:blue;
+}
