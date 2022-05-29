@@ -52,6 +52,7 @@ body{
     margin-left: 1200px;
     color:white;
     writing-mode: vertical-rl;
+    margin-top: -104px;
 }
 
 .location{
@@ -63,7 +64,7 @@ body{
     border-radius: 12px;
     background-color: lavender;
     margin-left: 293px;
-    margin-top: 62px;
+    margin-top: -66px;
 }
 
 .country{
@@ -106,4 +107,17 @@ body{
 .time-zone-name{
     font-size: 1.3rem;
     color:blue;
+}
+
+.submit{
+    font-size:1.2rem;
+    margin-left:55px;
+    padding:4px;
+    border-radius:7px;
+}
+
+.first-h{
+    text-align: center;
+    font-size: 2rem;
+    color:slateblue;
 }

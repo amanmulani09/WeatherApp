@@ -1,4 +1,3 @@
-import UserInput from "./Components/UserInput";
 import DisplayChart from "./Components/DisplayChart";
 
 function App() {
